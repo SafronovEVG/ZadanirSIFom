@@ -13,5 +13,6 @@ public class Task5 {
         } else {
             System.out.println("3>1 b 1>2");
         }
+        System.out.println("Был бы внимательным прочитал бы что сначало ни гите создавать гужно");
     }
 }
