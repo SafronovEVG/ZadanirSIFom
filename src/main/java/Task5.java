@@ -1,18 +1,27 @@
+import java.util.Scanner;
+
 public class Task5 {
     public static void main(String[] args) {
-        int one = 1;
-        int two = 2;
-        int three = 3;
-        boolean x1 = 1 < 3 && 1 < 2;
-        boolean x2 = 2 > 1 && 2 < 3;
-        if (x1) {
-            System.out.println("1<2 b 1<3");
+        Scanner s1 = new Scanner(System.in);
+        Scanner s2 = new Scanner(System.in);
+        Scanner s3 = new Scanner(System.in);
+        System.out.println("Ведите первое число");
+        int one = s1.nextInt();
+        System.out.println("Ведите второе число");
+        int two = s2.nextInt();
+        System.out.println("Ведите третье число");
+        int three = s3.nextInt();
+        if (one > two) {
+            if (one > three) {
+                System.out.println("самое большое чило - "+ one);
+            }else{
+                System.out.println("самое большое число - "+ three);
+            }
+        } else if (two>three) {
+            System.out.println("Самое большое число - "+ two);
+        }else {
+            System.out.println("Самое бьльшое число - " + three);
         }
-        if (x2) {
-            System.out.println("2>1 b 2<3");
-        } else {
-            System.out.println("3>1 b 1>2");
-        }
-        System.out.println("Был бы внимательным прочитал бы что сначало ни гите создавать гужно");
     }
-}
+    }
+
