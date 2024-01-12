@@ -17,5 +17,6 @@ public class Task4 {
         } else {
             System.out.println("Плач в кроватке");
         }
+        System.out.println("Был бы внимательным прочитал бы что сначало ни гите создавать гужно");
     }
 }
